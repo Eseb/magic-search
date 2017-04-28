@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/Eseb/magic-search",
   "author": "Seb Bacanu <seb@bacanu.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.3.0"
+  }
 }
