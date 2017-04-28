@@ -29,13 +29,13 @@ search(fruit, 'aple')
 → ['Apple', 'Custard apple', 'Pineapple']
 
 search(fruit, 'sberry')
-→ ['Boysenberry',, 'Gooseberry', 'Raspberry', ...]
+→ ['Boysenberry', 'Gooseberry', 'Raspberry', ...]
 ```
 
 ## Use with a getter
 
 If you need to filter a collection of items that are more than just strings, you can use a getter function as the third argument.
 
-```
+```js
 const filteredByGenus = search(fruit, 'rosales', item => item.getGenus())
 ```
