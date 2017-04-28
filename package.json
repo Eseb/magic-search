@@ -1,0 +1,9 @@
+{
+  "name": "magic-search",
+  "version": "1.0.0",
+  "description": "Fuzzy search engine, similar to Sublime Text's cmd-P menu.",
+  "main": "index.js",
+  "repository": "https://github.com/Eseb/magic-search",
+  "author": "Seb Bacanu <seb@bacanu.com>",
+  "license": "MIT"
+}
