@@ -1,4 +1,16 @@
+var invariant = require('invariant');
+
 function search(scope, query, getter) {
+  invariant(
+    scope,
+    'Search collection not provided'
+  );
+
+  invariant(
+    query,
+    'Query string not provided'
+  );
+
   return scope.filter(function(item) {
     var value = item;
     if (getter) {
