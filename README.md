@@ -1,4 +1,4 @@
-# magic-search
+# magic-search [![npm version](https://badge.fury.io/js/magic-search.svg)](https://badge.fury.io/js/magic-search)
 
 A simple fuzzy search tool similar to Sublime-Text's cmd-P search system.
 
